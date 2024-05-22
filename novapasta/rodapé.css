@@ -1,0 +1,41 @@
+    .rodapé{
+        display: none;
+    }
+
+@media screen and (min-width:1024px) {
+
+    .rodapé__titulo{
+        font-size: 24px;
+        font-weight: 400;
+        color: var(--preto);
+    }
+    .rodapé{
+        display: flex;
+        padding: 2em 5em;
+    }
+       
+    .rodapé__div{
+        display: flex;
+        padding: 2em 0 0 3em;
+    }
+    
+    .rodapé__lista{
+        margin: 0 2em;
+    }
+
+    .rodapé__item{
+        padding: 0.5em 0;
+        align-items: center;
+    }
+    .rodapé__link{
+        text-decoration: none;
+    }
+    
+}
+
+@media screen and (min-width:1728px){
+    .rodapé__lista{
+        border-left: 1px solid var(--cinza);
+        padding-left: 2em;
+    }
+}
